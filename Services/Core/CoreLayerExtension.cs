@@ -1,6 +1,7 @@
 ﻿using Core.CQRS.Bases;
-using Core.CQRS.Beheviors;
+using Core.CQRS.Behaviors;
 using Core.Middlewares;
+using Core.Repositories;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Configuration;
@@ -15,22 +16,26 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public static class Install
+    public static class CoreLayerExtension
     {
-        public static void InstallServices(this IServiceCollection services, IConfiguration configuration)
+        public static void AddCoreLayerServices(this IServiceCollection services, IConfiguration configuration)
         {
             var assembly = Assembly.GetExecutingAssembly();
 
 
             object value = services.AddRulesFromAssemblyContaining(assembly, typeof(BaseRules));
 
-            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(assembly));
+            services.AddMediatR(assembly);
+
 
             ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehevior<,>));
 
-         //   app.UseMiddleware<ExceptionHandlingMiddleware>();
+            //   app.UseMiddleware<ExceptionHandlingMiddleware>();
+            services.AddTransient(typeof(IReadRepository<>), typeof(ReadRepository<>));
+            services.AddTransient(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+
 
         }
 
