@@ -3,180 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\configurations\\productcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\cqrs\\behaviors\\fluentvalidationbehevior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\cqrs\\behaviors\\fluentvalidationbehevior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\applicationlayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\applicationlayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\host\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|solutionrelative:services\\productservice\\host\\host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\corelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\corelayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\domainlayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\domainlayerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\repositories\\writerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\repositories\\readrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\repositories\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\repositories\\iwriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\repositories\\ireadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\repositories\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\repositories\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\context\\applicationdbcontextadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\context\\applicationdbcontextadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\rules\\productrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\rules\\productrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\host\\host\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|solutionrelative:services\\productservice\\host\\host\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\commands\\createproduct\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getproductbyid\\getproductbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\host\\host\\host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|solutionrelative:services\\productservice\\host\\host\\host.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\shared\\entitybase\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\shared\\entitybase\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\shared\\entitybase\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\shared\\entitybase\\ientitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\domain\\domain\\context\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E41708C4-877B-476B-9FB9-1FC56520EF61}|Services\\ProductService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\productservice\\domain\\domain\\context\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\host\\host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|solutionrelative:services\\productservice\\host\\host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AE6E50D-79BA-4187-B144-51284CB10FFE}|Services\\AuthService\\Enum\\Enum\\Enum.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\enum\\enum\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AE6E50D-79BA-4187-B144-51284CB10FFE}|Services\\AuthService\\Enum\\Enum\\Enum.csproj|solutionrelative:services\\authservice\\enum\\enum\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F555255F-FCD7-456C-8702-89E7FBE83FE0}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\domain\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F555255F-FCD7-456C-8702-89E7FBE83FE0}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\authservice\\domain\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77255974-97E6-4270-BC9B-BF33464F497B}|Services\\AuthService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\application\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77255974-97E6-4270-BC9B-BF33464F497B}|Services\\AuthService\\Application\\Application\\Application.csproj|solutionrelative:services\\authservice\\application\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\host\\host\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{886CB2DF-8C1F-4C9C-9BF1-87A4F520B7B8}|Services\\ProductService\\Host\\Host\\Host.csproj|solutionrelative:services\\productservice\\host\\host\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77800DEC-216D-4DAF-831E-82C742847BE8}|Services\\ProductService\\Enum\\Enum\\Enum.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\enum\\enum\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77800DEC-216D-4DAF-831E-82C742847BE8}|Services\\ProductService\\Enum\\Enum\\Enum.csproj|solutionrelative:services\\productservice\\enum\\enum\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\cqrs\\bases\\baserules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\cqrs\\bases\\baserules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\cqrs\\bases\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\cqrs\\bases\\basehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\core\\cqrs\\bases\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4CB78B6-1E33-4676-A117-D1EA31F1E9D0}|Services\\Core\\Core.csproj|solutionrelative:services\\core\\cqrs\\bases\\baseexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA0282E-3DA6-492D-8A21-4AE0F145E48E}|Services\\ProductService\\Application\\Application\\Application.csproj|solutionrelative:services\\productservice\\application\\application\\feature\\products\\queries\\getallproducts\\getallproductsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,578 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Repositories\\IDbContext.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IDbContext.cs",
-              "RelativeToolTip": "Services\\Core\\Repositories\\IDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "GetProductByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:19:34.01Z",
+              "WhenOpened": "2024-08-26T20:16:20.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetProductByIdResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdResponse.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdResponse.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdResponse.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T20:16:04.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Title": "GetProductByIdQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryRequest.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryRequest.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryRequest.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetProductById\\GetProductByIdQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:59:11.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:57:47.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FluentValidationBehevior.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Behaviors\\FluentValidationBehevior.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\CQRS\\Behaviors\\FluentValidationBehevior.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Behaviors\\FluentValidationBehevior.cs",
-              "RelativeToolTip": "Services\\Core\\CQRS\\Behaviors\\FluentValidationBehevior.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:52:04.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandHandler.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAQwE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:59:56.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContextAdapter.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextAdapter.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextAdapter.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextAdapter.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextAdapter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:19:52.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductCategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\ProductCategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Configurations\\ProductCategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Configurations\\ProductCategoryConfiguration.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Configurations\\ProductCategoryConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:59:54.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateProductCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:59:44.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IReadRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Repositories\\IReadRepository.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IReadRepository.cs",
-              "RelativeToolTip": "Services\\Core\\Repositories\\IReadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:23:39.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CoreLayerExtension.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CoreLayerExtension.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\CoreLayerExtension.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CoreLayerExtension.cs",
-              "RelativeToolTip": "Services\\Core\\CoreLayerExtension.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwBQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:28:17.327Z",
+              "WhenOpened": "2024-08-26T20:15:52.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ApplicationLayerExtension.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\ApplicationLayerExtension.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\ApplicationLayerExtension.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\ApplicationLayerExtension.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\ApplicationLayerExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABzAAAA",
+              "Title": "GetAllProductsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsResponse.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsResponse.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsResponse.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:25:33.454Z",
+              "WhenOpened": "2024-08-26T20:10:22.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\ReadRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Repositories\\ReadRepository.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\ReadRepository.cs",
-              "RelativeToolTip": "Services\\Core\\Repositories\\ReadRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:23:30.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Program.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Host\\Host\\Program.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Program.cs",
-              "RelativeToolTip": "Services\\ProductService\\Host\\Host\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:08:46.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DomainLayerExtension.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\DomainLayerExtension.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\DomainLayerExtension.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\DomainLayerExtension.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\DomainLayerExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:14:24.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\WriteRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Repositories\\WriteRepository.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\WriteRepository.cs",
-              "RelativeToolTip": "Services\\Core\\Repositories\\WriteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:23:54.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IWriteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IWriteRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Repositories\\IWriteRepository.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Repositories\\IWriteRepository.cs",
-              "RelativeToolTip": "Services\\Core\\Repositories\\IWriteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:24:00.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Services\\ProductService\\Host\\Host\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Services\\ProductService\\Host\\Host\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T18:37:23.731Z",
+              "WhenOpened": "2024-08-26T20:07:10.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Host",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Host.csproj",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Host\\Host\\Host.csproj",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Host.csproj",
-              "RelativeToolTip": "Services\\ProductService\\Host\\Host\\Host.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T18:50:10.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateProductCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:00:08.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:00:23.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductRules.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Rules\\ProductRules.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Rules\\ProductRules.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Rules\\ProductRules.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Rules\\ProductRules.cs",
+              "DocumentIndex": 5,
+              "Title": "GetAllProductsQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:02:46.444Z",
+              "WhenOpened": "2024-08-26T20:10:18.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Core",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
-              "RelativeDocumentMoniker": "Services\\Core\\Core.csproj",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
-              "RelativeToolTip": "Services\\Core\\Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T18:49:35.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateProductResponse.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Commands\\CreateProduct\\CreateProductResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "DocumentIndex": 4,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Feature\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:00:21.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Application",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Application\\Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Application\\Application\\Application.csproj",
-              "RelativeToolTip": "Services\\ProductService\\Application\\Application\\Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T18:49:47.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Domain.csproj",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T14:25:40.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IEntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Shared\\EntityBase\\IEntityBase.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Shared\\EntityBase\\IEntityBase.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Shared\\EntityBase\\IEntityBase.cs",
-              "RelativeToolTip": "Services\\Core\\Shared\\EntityBase\\IEntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:32:10.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:45:41.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:41:37.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Domain.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
-              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T09:43:51.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EntityBase.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Shared\\EntityBase\\EntityBase.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Shared\\EntityBase\\EntityBase.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Shared\\EntityBase\\EntityBase.cs",
-              "RelativeToolTip": "Services\\Core\\Shared\\EntityBase\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:32:22.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Brand.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Entities\\Brand.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\Brand.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Entities\\Brand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:07:15.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductCategory.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\ProductCategory.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Entities\\ProductCategory.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Entities\\ProductCategory.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Entities\\ProductCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:56:30.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextFactory.cs",
-              "RelativeToolTip": "Services\\ProductService\\Domain\\Domain\\Context\\ApplicationDbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:30:46.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Host\\Host\\appsettings.json",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\appsettings.json",
-              "RelativeToolTip": "Services\\ProductService\\Host\\Host\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-26T14:09:37.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ExceptionHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "RelativeToolTip": "Services\\Core\\Middlewares\\ExceptionHandlingMiddleware.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAuwDMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:27:21.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Enum\\Enum\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Class1.cs",
-              "RelativeToolTip": "Services\\AuthService\\Enum\\Enum\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:10:13.679Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Class1.cs",
-              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:09:59.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Application\\Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Class1.cs",
-              "RelativeToolTip": "Services\\AuthService\\Application\\Application\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:09:40.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Host\\Host\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Services\\ProductService\\Host\\Host\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:08:45.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Enum\\Enum\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService\\Enum\\Enum\\Class1.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Enum\\Enum\\Class1.cs",
-              "RelativeToolTip": "Services\\ProductService\\Enum\\Enum\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T13:07:54.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "BaseRules.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseRules.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\CQRS\\Bases\\BaseRules.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseRules.cs",
-              "RelativeToolTip": "Services\\Core\\CQRS\\Bases\\BaseRules.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:51:29.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "BaseHandler.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\CQRS\\Bases\\BaseHandler.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseHandler.cs",
-              "RelativeToolTip": "Services\\Core\\CQRS\\Bases\\BaseHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:49:30.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BaseException.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseException.cs",
-              "RelativeDocumentMoniker": "Services\\Core\\CQRS\\Bases\\BaseException.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\CQRS\\Bases\\BaseException.cs",
-              "RelativeToolTip": "Services\\Core\\CQRS\\Bases\\BaseException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T12:49:17.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T09:46:59.814Z",
+              "WhenOpened": "2024-08-26T20:07:00.642Z",
               "EditorCaption": ""
             }
           ]
