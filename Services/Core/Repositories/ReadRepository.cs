@@ -1,22 +1,24 @@
-﻿using System;
+﻿using Core.Shared.EntityBase;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Core.Repositories
 {
     public class ReadRepository<T> : IReadRepository<T> where T : class, IEntityBase, new()
     {
-        private readonly DbContext dbContext;
+        private readonly IDbContext _dbContext;
 
-        public ReadRepository(DbContext dbContext)
+        public ReadRepository(IDbContext dbContext)
         {
-            this.dbContext = dbContext;
+            _dbContext = dbContext;
         }
 
-        private DbSet<T> Table { get => dbContext.Set<T>(); }
+        private DbSet<T> Table => _dbContext.Set<T>();
 
         public async Task<IList<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, bool enableTracking = false)
         {
@@ -47,8 +49,6 @@ namespace Core.Repositories
             IQueryable<T> queryable = Table;
             if (!enableTracking) queryable = queryable.AsNoTracking();
             if (include is not null) queryable = include(queryable);
-
-            //queryable.Where(predicate);
 
             return await queryable.FirstOrDefaultAsync(predicate);
         }

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
 using MediatR;
-namespace Core.CQRS.Beheviors
+namespace Core.CQRS.Behaviors
 {
     public class FluentValidationBehevior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
            where TRequest : IRequest<TResponse>
