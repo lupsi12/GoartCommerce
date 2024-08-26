@@ -1,0 +1,12 @@
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/bin/Debug/net8.0/Enums.deps.json
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/bin/Debug/net8.0/Enums.dll
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/bin/Debug/net8.0/Enums.pdb
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfoInputs.cache
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfo.cs
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.sourcelink.json
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.dll
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/refint/Enums.dll
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.pdb
+/Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/ref/Enums.dll

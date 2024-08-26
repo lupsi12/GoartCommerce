@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ff22ebf-f101-44e0-9071-da49be752418" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Application/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Application/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Application/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Application/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Core/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Core/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Core/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Core/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Domain/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Domain/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Domain/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Domain/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/Roles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/Roles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/Status.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/Status.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Host/Host/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Host/Host/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Host/Host/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Host/Host/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Host/Host/obj/Debug/net8.0/Host.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Host/Host/obj/Debug/net8.0/Host.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AuthService/Host/Host/obj/Debug/net8.0/Host.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AuthService/Host/Host/obj/Debug/net8.0/Host.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Services/AuthService/Host/Host/Program.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lBM2C2HAGWrHSOddRWAC9pn0JV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/user/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/user/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/user/Library/Application Support/Symbols/src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ff22ebf-f101-44e0-9071-da49be752418" name="Changes" comment="" />
+      <created>1724648807956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724648807956</updated>
+      <workItem from="1724648810173" duration="91000" />
+      <workItem from="1724653213369" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
