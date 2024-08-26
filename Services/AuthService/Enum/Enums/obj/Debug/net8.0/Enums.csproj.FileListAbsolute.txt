@@ -10,3 +10,13 @@
 /Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/refint/Enums.dll
 /Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/Enums.pdb
 /Users/user/Desktop/Commerce/Services/AuthService/Enum/Enums/obj/Debug/net8.0/ref/Enums.dll
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\bin\Debug\net8.0\Enums.deps.json
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\bin\Debug\net8.0\Enums.dll
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\bin\Debug\net8.0\Enums.pdb
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\Enums.sourcelink.json
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\Enums.dll
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\refint\Enums.dll
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\Enums.pdb
+C:\Users\KC\source\repos\GoartCommerce\Services\AuthService\Enum\Enums\obj\Debug\net8.0\ref\Enums.dll

@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\domain\\domain\\database\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\authservice\\domain\\domain\\database\\installer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\domain\\domain\\database\\context\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\authservice\\domain\\domain\\database\\context\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C652F3-2F24-432A-9E0D-CE828F92B2D9}|Services\\AuthService\\Enum\\Enums\\Enums.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\enum\\enums\\enums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58C652F3-2F24-432A-9E0D-CE828F92B2D9}|Services\\AuthService\\Enum\\Enums\\Enums.csproj|solutionrelative:services\\authservice\\enum\\enums\\enums.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\domain\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{168B85EC-C16E-4A54-8968-1108723476B9}|Services\\AuthService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\authservice\\domain\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76A7FB3-8681-45E0-83CA-DFCEA04337C4}|Services\\AuthService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\application\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E76A7FB3-8681-45E0-83CA-DFCEA04337C4}|Services\\AuthService\\Application\\Application\\Application.csproj|solutionrelative:services\\authservice\\application\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38769B02-EB1C-427D-96D5-C055F0B98462}|Services\\AuthService\\Core\\Core\\Core.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\authservice\\core\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{38769B02-EB1C-427D-96D5-C055F0B98462}|Services\\AuthService\\Core\\Core\\Core.csproj|solutionrelative:services\\authservice\\core\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Database\\Context\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\Database\\Context\\AuthDbContext.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Database\\Context\\AuthDbContext.cs",
+              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\Database\\Context\\AuthDbContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:49:09.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Installer.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Database\\Installer.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\Database\\Installer.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Database\\Installer.cs",
+              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\Database\\Installer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:48:53.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:46:59.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Core\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Core\\Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Core\\Core\\Core.csproj",
+              "RelativeToolTip": "Services\\AuthService\\Core\\Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T09:45:37.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T09:45:00.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enums.csproj",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enums\\Enums.csproj",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Enum\\Enums\\Enums.csproj",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enums\\Enums.csproj",
+              "RelativeToolTip": "Services\\AuthService\\Enum\\Enums\\Enums.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T09:45:26.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Domain.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
+              "RelativeToolTip": "Services\\AuthService\\Domain\\Domain\\obj\\Debug\\net8.0\\Domain.AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwBMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:43:51.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Services\\AuthService\\Application\\Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Application.csproj",
+              "RelativeToolTip": "Services\\AuthService\\Application\\Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T09:35:10.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

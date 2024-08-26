@@ -9,16 +9,12 @@ public static class Installer
 {
     public static IServiceCollection InstallDatabase(this IServiceCollection services, IConfiguration configuration)
     {
-        // services.AddDbContext<AuthDbContext>(
-        //     db => db.UseSqlServer(configuration.GetConnectionString("MssqlConnectionString")));
-
-
-var
-connectionString = Environment.GetEnvironmentVariable(
-"ConnectionStrings__DefaultConnection"
-);
-            services.AddDbContext<AuthDbContext>(options =>
-            options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21))));
+        var
+        connectionString = Environment.GetEnvironmentVariable(
+        "authdb_connection_string"
+        );
+        services.AddDbContext<AuthDbContext>(options =>
+        options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21))));
 
 
 
