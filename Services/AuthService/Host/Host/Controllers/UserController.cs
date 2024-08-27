@@ -1,3 +1,4 @@
+using Application.Feature.Users.Commands.CreateUser;
 using Application.Feature.Users.Queries.GetAllUsers;
 using Application.Feature.Users.Queries.GetUserById;
 using MediatR;
@@ -32,6 +33,12 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return NotFound();
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateUser([FromBody] CreateUserCommandRequest request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
         }
     }
 }
