@@ -1,28 +1,200 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Host\\Host\\Host.csproj": {}
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Host/Host/Host.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Host\\Host\\Host.csproj": {
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Host\\Host\\Host.csproj",
-        "projectName": "Host",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Host\\Host\\Host.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Host\\Host\\obj\\",
+        "projectUniqueName": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj"
+              },
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj"
+              },
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj"
+              },
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj",
+        "projectName": "Enum",
+        "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Enum/Enum/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +217,96 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Host/Host/Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Host/Host/Host.csproj",
+        "projectName": "Host",
+        "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Host/Host/Host.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Host/Host/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/Application.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Application/Application/Application.csproj"
+              },
+              "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj": {
+                "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -70,7 +331,95 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/Core.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/GoArtCommerce/GoartCommerce/Services/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
