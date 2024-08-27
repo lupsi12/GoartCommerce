@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  productservice:
+    build:
+      context: ./Services/ProductService
+      dockerfile: Dockerfile
+    ports:
+      - "5233:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${productdb_connectionstring}
+
+  cartservice:
+    build:
+      context: ./Services/CartService
+      dockerfile: Dockerfile
+    ports:
+      - "5259:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${CARTDB_CONNECTIONSTRING}
+
+  apigateway:
+    build:
+      context: ./ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - productservice
+      - cartservice

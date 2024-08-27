@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-
-    <PackageReference Include="MMLib.SwaggerForOcelot" Version="8.3.0" />
-
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.ApiDescription.Server" Version="8.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Ocelot" Version="23.3.3" />
-
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
   </ItemGroup>
 

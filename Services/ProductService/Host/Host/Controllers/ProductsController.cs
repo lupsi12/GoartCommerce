@@ -5,7 +5,9 @@ using Application.Feature.Products.Queries.GetAllProducts;
 using Application.Feature.Products.Queries.GetProductById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Net; // Add this for HttpStatusCode
 using System.Threading.Tasks;
+
 namespace WebAPI.Controllers
 {
     [ApiController]
@@ -20,6 +22,8 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> CreateProduct([FromBody] CreateProductCommandRequest request)
         {
             var result = await _mediator.Send(request);
@@ -27,12 +31,17 @@ namespace WebAPI.Controllers
         }
 
         [HttpPut]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> UpdateProduct([FromBody] UpdateProductCommandRequest request)
         {
             var result = await _mediator.Send(request);
             return Ok(result);
         }
+
         [HttpDelete("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             var command = new DeleteProductCommandRequest { ProductId = id };
@@ -43,7 +52,9 @@ namespace WebAPI.Controllers
             }
             return NotFound();
         }
+
         [HttpGet]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> GetAllProducts([FromQuery] GetAllProductsQueryRequest request)
         {
             var result = await _mediator.Send(request);
@@ -51,6 +62,8 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> GetProductById(int id)
         {
             var query = new GetProductByIdQueryRequest { ProductId = id };
@@ -61,6 +74,5 @@ namespace WebAPI.Controllers
             }
             return NotFound();
         }
-
     }
 }

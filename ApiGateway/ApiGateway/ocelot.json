@@ -1,20 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/cart/{everything}",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5259
-        }
-      ],
-      "UpstreamPathTemplate": "/cart-gate/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "SwaggerKey": "CartService"
-    },
-    {
-      "DownstreamPathTemplate": "/api/products/{everything}",
+      "DownstreamPathTemplate": "/api/products",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -22,30 +9,35 @@
           "Port": 5233
         }
       ],
-      "UpstreamPathTemplate": "/product-gate/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
-      "SwaggerKey": "ProductService"
-    }
-  ],
-  "SwaggerEndPoints": [
-    {
-      "Key": "CartService",
-      "Config": {
-        "Name": "Cart Service",
-        "Version": "v1",
-        "Url": "http://localhost:5259/swagger/v1/swagger.json"
-      }
+      "UpstreamPathTemplate": "/products",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     },
     {
-      "Key": "ProductService",
-      "Config": {
-        "Name": "Product Service",
-        "Version": "v1",
-        "Url": "http://localhost:5233/swagger/v1/swagger.json"
-      }
+      "DownstreamPathTemplate": "/api/carts",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5259
+        }
+      ],
+      "UpstreamPathTemplate": "/carts",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7000"
-  }
+    "BaseUrl": "https://localhost:5000"
+  },
+  "SwaggerEndPoints": [
+    {
+      "Name": "Products API",
+      "Version": "v1",
+      "Url": "http://localhost:5233/swagger/v1/swagger.json"
+    },
+    {
+      "Name": "Carts API",
+      "Version": "v1",
+      "Url": "http://localhost:5259/swagger/v1/swagger.json"
+    }
+  ]
 }

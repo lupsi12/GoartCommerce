@@ -46,9 +46,15 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MMLib.SwaggerForOcelot": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.3.0, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Server": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Ocelot": {
               "target": "Package",

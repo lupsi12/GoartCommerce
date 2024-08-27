@@ -2,6 +2,7 @@
 using Application.Features.Carts.Commands.UpdateCart;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Net; // Add this for HttpStatusCode
 using System.Threading.Tasks;
 using Application.Feature.Carts.Commands.CreateCart;
 using Application.Feature.Carts.Commands.UpdateCart;
@@ -20,6 +21,8 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("create")]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> CreateCart([FromBody] CreateCartCommandRequest request)
         {
             var result = await _mediator.Send(request);
@@ -31,6 +34,8 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add-item")]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> AddItemToCart([FromBody] AddItemToCartCommandRequest request)
         {
             var result = await _mediator.Send(request);
@@ -42,6 +47,8 @@ namespace WebAPI.Controllers
         }
 
         [HttpPut("update")]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.OK)]
         public async Task<IActionResult> UpdateCart([FromBody] UpdateCartCommandRequest request)
         {
             var result = await _mediator.Send(request);
