@@ -11,6 +11,7 @@ namespace Domain.Configurations
         {
             builder.HasKey(c => c.Id);
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
+            builder.HasIndex(u => u.Email).IsUnique();
 
             builder.HasData(
             new User

@@ -26,8 +26,8 @@ namespace Application.Feature.Users.Commands.CreateUser
 
         public async Task<CreateUserResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
-            _userRules.ValidateEmail(request.Email);
-
+            UserRules.ValidateEmail(request.Email);
+            await _userRules.ValidateEmailAsync(request.Email);
             User user = new User
             {
                 Name = request.Name,

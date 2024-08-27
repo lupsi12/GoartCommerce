@@ -33,7 +33,7 @@ namespace Domain.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("tinyint(1)");
@@ -62,6 +62,9 @@ namespace Domain.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
                     b.ToTable("Users");
 
                     b.HasData(
@@ -69,7 +72,7 @@ namespace Domain.Migrations
                         {
                             Id = 1,
                             BirthDate = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreatedDate = new DateTime(2024, 8, 27, 0, 16, 28, 401, DateTimeKind.Local).AddTicks(7980),
+                            CreatedDate = new DateTime(2024, 8, 27, 12, 53, 23, 424, DateTimeKind.Local).AddTicks(9510),
                             Email = "admin@gmail.com",
                             IsDeleted = false,
                             LastName = "",

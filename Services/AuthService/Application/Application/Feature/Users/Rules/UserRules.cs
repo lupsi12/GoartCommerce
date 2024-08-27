@@ -1,3 +1,4 @@
+using Core.Repositories;
 using Domain.Entities;
 using FluentValidation;
 using System;
@@ -9,7 +10,13 @@ namespace Application.Features.Users.Rules
 {
     public class UserRules
     {
-        public void ValidateEmail(string email)
+        private readonly IReadRepository<User> _userReadRepository;
+
+        public UserRules(IReadRepository<User> userReadRepository)
+        {
+            _userReadRepository = userReadRepository;
+        }
+        public static void ValidateEmail(string email)
 {
     if (string.IsNullOrWhiteSpace(email))
     {
@@ -21,6 +28,21 @@ namespace Application.Features.Users.Rules
         throw new ValidationException("The email must be a Gmail address.");
     }
 }
+public async Task ValidateEmailAsync(string email)
+        {
+            // E-posta adresinin geçerli olup olmadığını kontrol et
+            ValidateEmail(email);
+
+            // E-posta adresinin benzersizliğini kontrol et
+            bool emailExists = (await _userReadRepository.GetAllAsync())
+                .Any(u => u.Email.Equals(email, StringComparison.OrdinalIgnoreCase));
+
+            if (emailExists)
+            {
+                throw new Exception("The email address is already in use.");
+            }
+        }
 
     }
+    
 }
