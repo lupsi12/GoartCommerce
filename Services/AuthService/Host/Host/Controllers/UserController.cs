@@ -3,18 +3,21 @@ using Application.Feature.Users.Commands.UpdateUser;
 using Application.Feature.Users.DeleteUser;
 using Application.Feature.Users.Queries.GetAllUsers;
 using Application.Feature.Users.Queries.GetUserById;
+using Enum;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 namespace WebAPI.Controllers
 {
+    [Authorize(Roles = "ADMIN")]
     [ApiController]
     [Route("api/[controller]")]
-    public class UsersController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public UsersController(IMediator mediator)
+        public UserController(IMediator mediator)
         {
             _mediator = mediator;
         }

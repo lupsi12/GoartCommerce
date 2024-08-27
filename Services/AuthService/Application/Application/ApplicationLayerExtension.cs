@@ -1,4 +1,4 @@
-﻿using Application.Features.Users.Rules;
+﻿
 using Core.CQRS.Behaviors;
 using FluentValidation;
 using MediatR;
@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Reflection;
+using Application.Features.Users.Rules;
 
 namespace Application
 {
