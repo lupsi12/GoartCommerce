@@ -7,6 +7,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Clients\**" />
+	  <EmbeddedResource Remove="Clients\**" />
+	  <None Remove="Clients\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="DTOs\" />
 		<Folder Include="Interfaces\" />
 	</ItemGroup>

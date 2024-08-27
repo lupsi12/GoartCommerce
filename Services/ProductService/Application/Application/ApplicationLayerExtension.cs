@@ -24,6 +24,8 @@ namespace Application
             services.AddValidatorsFromAssembly(assembly);
 
             ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
+
+
         }
     }
 }
