@@ -1,0 +1,51 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/cart/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5259
+        }
+      ],
+      "UpstreamPathTemplate": "/cart-gate/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "CartService"
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5233
+        }
+      ],
+      "UpstreamPathTemplate": "/product-gate/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "ProductService"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "CartService",
+      "Config": {
+        "Name": "Cart Service",
+        "Version": "v1",
+        "Url": "http://localhost:5259/swagger/v1/swagger.json"
+      }
+    },
+    {
+      "Key": "ProductService",
+      "Config": {
+        "Name": "Product Service",
+        "Version": "v1",
+        "Url": "http://localhost:5233/swagger/v1/swagger.json"
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000"
+  }
+}

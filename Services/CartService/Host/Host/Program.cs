@@ -28,9 +28,18 @@ builder.Services.AddCoreLayerServices(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy",
+        builder => builder.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
+
 
 var app = builder.Build();
-
+app.UseCors("CorsPolicy");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
