@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "skyzgFPqr/g=",
+  "dgSpecHash": "0hbMB2KRdTA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+  "projectFilePath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KC\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\KC\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",

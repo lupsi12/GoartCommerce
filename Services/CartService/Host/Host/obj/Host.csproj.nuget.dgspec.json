@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {}
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
         "projectName": "Host",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -193,11 +193,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj"
               },
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -255,14 +255,14 @@
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
