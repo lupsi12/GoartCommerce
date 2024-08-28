@@ -25,6 +25,32 @@
       "UpstreamPathTemplate": "/product-gate/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "SwaggerKey": "ProductService"
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5216
+        }
+      ],
+      "UpstreamPathTemplate": "/auth-gate/{everything}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "AuthService"
+    },
+    {
+      "DownstreamPathTemplate": "/api/users/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5216
+        }
+      ],
+      "UpstreamPathTemplate": "/user-gate/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "SwaggerKey": "AuthService"
     }
   ],
   "SwaggerEndPoints": [
@@ -43,9 +69,17 @@
         "Version": "v1",
         "Url": "http://localhost:5233/swagger/v1/swagger.json"
       }
+    },
+    {
+      "Key": "AuthService",
+      "Config": {
+        "Name": "Auth Service",
+        "Version": "v1",
+        "Url": "http://localhost:5216/swagger/v1/swagger.json"
+      }
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:7000"
+    "BaseUrl": "http://localhost:5111"
   }
 }
