@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C7BA08-A51D-4133-8173-7E9B910A550B}|Services\\CartService\\Host\\Host\\Host.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\host\\host\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C7BA08-A51D-4133-8173-7E9B910A550B}|Services\\CartService\\Host\\Host\\Host.csproj|solutionrelative:services\\cartservice\\host\\host\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\queries\\getcartdetails\\getcartdetailsqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\commands\\additemtocart\\additemtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\commands\\additemtocart\\additemtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\clients\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\clients\\productapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\domain\\domain\\configurations\\cartdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\cartservice\\domain\\domain\\configurations\\cartdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\domain\\domain\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\cartservice\\domain\\domain\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\domain\\domain\\entities\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\cartservice\\domain\\domain\\entities\\cartdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\commands\\createcart\\createcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\commands\\createcart\\createcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\application\\application\\feature\\carts\\commands\\updatecart\\updatecartcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18813AA6-82B0-45EF-9686-A19FE1BD7DD9}|Services\\CartService\\Application\\Application\\Application.csproj|solutionrelative:services\\cartservice\\application\\application\\feature\\carts\\commands\\updatecart\\updatecartcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\services\\cartservice\\domain\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CEE78D-F598-4850-88FD-1E02EA29400C}|Services\\CartService\\Domain\\Domain\\Domain.csproj|solutionrelative:services\\cartservice\\domain\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90973B16-15D3-4715-828D-B354FCEAE104}|ApiGateway\\ApiGateway\\ApiGateway.csproj|c:\\users\\kc\\source\\repos\\goartcommerce\\apigateway\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90973B16-15D3-4715-828D-B354FCEAE104}|ApiGateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Host\\Host\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Services\\CartService\\Host\\Host\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:49:35.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetCartDetailsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryHandler.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryHandler.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:49:15.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetCartDetailsQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryResponse.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryResponse.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryResponse.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:48:56.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetCartDetailsQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryRequest.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryRequest.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryRequest.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Queries\\GetCartDetails\\GetCartDetailsQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:48:32.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\CreateCart\\CreateCartCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:28:17.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateCartCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\UpdateCart\\UpdateCartCommandRequest.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\UpdateCart\\UpdateCartCommandRequest.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\UpdateCart\\UpdateCartCommandRequest.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\UpdateCart\\UpdateCartCommandRequest.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:28:02.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartDetail.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Entities\\CartDetail.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Entities\\CartDetail.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Entities\\CartDetail.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Entities\\CartDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:27:31.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Entities\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:26:54.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddItemToCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\AddItemToCart\\AddItemToCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\AddItemToCart\\AddItemToCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\AddItemToCart\\AddItemToCartCommandHandler.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Feature\\Carts\\Commands\\AddItemToCart\\AddItemToCartCommandHandler.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAjwFoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:24:11.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Clients\\ProductApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Application\\Application\\Clients\\ProductApiClient.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Clients\\ProductApiClient.cs",
+              "RelativeToolTip": "Services\\CartService\\Application\\Application\\Clients\\ProductApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:28:36.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240828092940_totalprice.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Migrations\\20240828092940_totalprice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:29:40.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240828093255_totalprice.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Migrations\\20240828093255_totalprice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:32:56.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Configurations\\CartConfiguration.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Configurations\\CartConfiguration.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Configurations\\CartConfiguration.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Configurations\\CartConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:31:58.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Configurations\\CartDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "Services\\CartService\\Domain\\Domain\\Configurations\\CartDetailConfiguration.cs",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Configurations\\CartDetailConfiguration.cs",
+              "RelativeToolTip": "Services\\CartService\\Domain\\Domain\\Configurations\\CartDetailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:32:02.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\ApiGateway\\ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\ApiGateway\\ApiGateway\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\ApiGateway\\ocelot.json",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-28T08:30:11.821Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
