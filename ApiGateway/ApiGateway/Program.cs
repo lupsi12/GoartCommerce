@@ -1,24 +1,29 @@
-using Ocelot.DependencyInjection;
-using Ocelot.Middleware;
-
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
-
-builder.Services.AddCors(options =>
+public class Program
 {
-    options.AddPolicy("CorsPolicy", policy =>
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader());
-});
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddOcelot(builder.Configuration);
+        builder.Services.AddControllers();
+        builder.Services.AddReverseProxy()
+            .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
 
-var app = builder.Build();
+        var app = builder.Build();
 
-app.UseCors("CorsPolicy");
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
 
-await app.UseOcelot();
+        app.UseRouting();
+        
+        // API Gateway ve yönlendirme yapılandırması
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+            endpoints.MapReverseProxy();
+        });
 
-app.Run();
+        app.Run();
+    }
+}
