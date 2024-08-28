@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj": {}
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj"
               },
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
+              "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+                "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\obj\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",

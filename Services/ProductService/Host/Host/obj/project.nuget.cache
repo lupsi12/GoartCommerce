@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fX0Q8xXxk0Q=",
+  "dgSpecHash": "3byGyCPW+2I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Host.csproj",
+  "projectFilePath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\ProductService\\Host\\Host\\Host.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KC\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\KC\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
