@@ -14,14 +14,16 @@ namespace Domain.Configurations
                 .IsRequired();
 
             builder.Property(c => c.Status)
-                .IsRequired(); 
+                .IsRequired();
 
-            builder.Ignore(c => c.TotalPrice); 
+            builder.Property(c => c.TotalPrice)
+                .HasColumnType("decimal(18,2)")
+                .IsRequired(); 
 
             builder.HasMany(c => c.CartDetails)
                 .WithOne(cd => cd.Cart)
                 .HasForeignKey(cd => cd.CartId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

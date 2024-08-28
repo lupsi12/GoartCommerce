@@ -10,8 +10,8 @@ namespace Domain.Entities
         public int UserId { get; set; }
         public CartStatus Status { get; set; }
 
-        //public decimal TotalPrice { get; set; } 
-        public decimal TotalPrice => CartDetails.Sum(cd => cd.Subtotal);
+        public decimal TotalPrice { get; set; }
+        //public decimal TotalPrice /*=> CartDetails.Sum(cd => cd.Subtotal);*/
         public ICollection<CartDetail> CartDetails { get; set; } = new List<CartDetail>();
     }
 
