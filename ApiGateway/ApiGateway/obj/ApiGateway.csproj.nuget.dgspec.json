@@ -35,23 +35,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MMLib.SwaggerForOcelot": {
-              "target": "Package",
-              "version": "[8.3.0, )"
-            },
-            "Ocelot": {
-              "target": "Package",
-              "version": "[23.3.3, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.7.3, )"
+            },
+            "Yarp.ReverseProxy": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
