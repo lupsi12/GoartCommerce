@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {}
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\Core.csproj"
+              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
+                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj"
               }
             }
           }
@@ -77,29 +74,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\Core.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\yedek\\GoartCommerce\\Services\\Core\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -168,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
