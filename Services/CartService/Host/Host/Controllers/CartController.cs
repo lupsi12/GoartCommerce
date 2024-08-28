@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Application.Feature.Carts.Commands.CreateCart;
 using Application.Feature.Carts.Commands.UpdateCart;
+using Application.Features.Carts.Queries.GetCartDetails;
 
 namespace WebAPI.Controllers
 {
@@ -18,7 +19,17 @@ namespace WebAPI.Controllers
         {
             _mediator = mediator;
         }
-
+        [HttpGet("{userId}/details")]
+        public async Task<IActionResult> GetCartDetails(int userId)
+        {
+            var query = new GetCartDetailsQueryRequest { UserId = userId };
+            var result = await _mediator.Send(query);
+            if (result == null)
+            {
+                return NotFound();
+            }
+            return Ok(result);
+        }
         [HttpPost("create")]
         public async Task<IActionResult> CreateCart([FromBody] CreateCartCommandRequest request)
         {

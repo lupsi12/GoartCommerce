@@ -8,21 +8,23 @@ namespace Domain.Configurations
     {
         public void Configure(EntityTypeBuilder<CartDetail> builder)
         {
-            builder.HasKey(cd => cd.Id); 
+            builder.HasKey(cd => cd.Id);
 
             builder.Property(cd => cd.Quantity)
                 .IsRequired();
 
             builder.Property(cd => cd.PricePerUnit)
-                .HasColumnType("decimal(18,2)") 
-                .IsRequired(); 
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
 
-            builder.Ignore(cd => cd.Subtotal); 
+            builder.Property(cd => cd.Subtotal)
+                .HasColumnType("decimal(18,2)")
+                .IsRequired();
 
             builder.HasOne(cd => cd.Cart)
                 .WithMany(c => c.CartDetails)
                 .HasForeignKey(cd => cd.CartId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.HasIndex(cd => cd.ProductId);
         }

@@ -10,8 +10,8 @@ namespace Domain.Entities
         public int ProductId { get; set; } 
         public int Quantity { get; set; } 
         public decimal PricePerUnit { get; set; }
-        //public decimal Subtotal { get; set; } 
-        public decimal Subtotal => Quantity * PricePerUnit; 
+        public decimal Subtotal { get; set; }
+        //public decimal Subtotal => Quantity * PricePerUnit; 
 
         public Cart Cart { get; set; } 
 

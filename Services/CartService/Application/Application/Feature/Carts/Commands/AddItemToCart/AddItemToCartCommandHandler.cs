@@ -1,6 +1,7 @@
 ﻿using Core.Repositories;
 using Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -28,21 +29,23 @@ namespace Application.Features.Carts.Commands.AddItemToCart
 
         public async Task<AddItemToCartCommandResponse> Handle(AddItemToCartCommandRequest request, CancellationToken cancellationToken)
         {
-            var cart = await _cartReadRepository.GetAsync(c => c.UserId == request.UserId && c.Status == CartStatus.Active);
+            var cart = await _cartReadRepository
+                .GetAsync(c => c.UserId == request.UserId && c.Status == CartStatus.Active,
+                         include: c => c.Include(cart => cart.CartDetails));
 
             if (cart == null)
             {
                 cart = new Cart
                 {
                     UserId = request.UserId,
-                    Status = CartStatus.Active
+                    Status = CartStatus.Active,
+                    TotalPrice = 0
                 };
                 await _cartWriteRepository.AddAsync(cart);
                 await _cartWriteRepository.SaveAsync();
             }
 
             var cartDetail = cart.CartDetails.FirstOrDefault(cd => cd.ProductId == request.ProductId);
-
             if (cartDetail == null)
             {
                 var product = await _productApiClient.GetProductByIdAsync(request.ProductId);
@@ -56,16 +59,23 @@ namespace Application.Features.Carts.Commands.AddItemToCart
                     CartId = cart.Id,
                     ProductId = request.ProductId,
                     Quantity = request.Quantity,
-                    PricePerUnit = product.Price
+                    PricePerUnit = product.Price,
+                    Subtotal = request.Quantity * product.Price
                 };
+
+                cart.CartDetails.Add(cartDetail);
+
                 await _cartDetailWriteRepository.AddAsync(cartDetail);
             }
             else
             {
                 cartDetail.Quantity += request.Quantity;
+                cartDetail.Subtotal = cartDetail.Quantity * cartDetail.PricePerUnit;
                 await _cartDetailWriteRepository.UpdateAsync(cartDetail);
             }
 
+            cart.TotalPrice = cart.CartDetails.Sum(cd => cd.Subtotal);
+            await _cartWriteRepository.UpdateAsync(cart);
             await _cartDetailWriteRepository.SaveAsync();
 
             return new AddItemToCartCommandResponse

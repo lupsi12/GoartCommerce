@@ -17,8 +17,4 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\Domain\Domain\Domain.csproj" />
 	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Feature\Carts\Queries\" />
-	</ItemGroup>
 </Project>
