@@ -29,6 +29,17 @@ namespace Application.Features.Carts.Commands.AddItemToCart
 
         public async Task<AddItemToCartCommandResponse> Handle(AddItemToCartCommandRequest request, CancellationToken cancellationToken)
         {
+            var product = await _productApiClient.GetProductByIdAsync(request.ProductId);
+            if (product == null)
+            {
+                throw new InvalidOperationException("Product not found.");
+            }
+
+            if (product.Stock < request.Quantity)
+            {
+                throw new InvalidOperationException("Insufficient stock available.");
+            }
+
             var cart = await _cartReadRepository
                 .GetAsync(c => c.UserId == request.UserId && c.Status == CartStatus.Active,
                          include: c => c.Include(cart => cart.CartDetails));
@@ -48,12 +59,6 @@ namespace Application.Features.Carts.Commands.AddItemToCart
             var cartDetail = cart.CartDetails.FirstOrDefault(cd => cd.ProductId == request.ProductId);
             if (cartDetail == null)
             {
-                var product = await _productApiClient.GetProductByIdAsync(request.ProductId);
-                if (product == null)
-                {
-                    throw new InvalidOperationException("Product not found.");
-                }
-
                 cartDetail = new CartDetail
                 {
                     CartId = cart.Id,
@@ -64,12 +69,17 @@ namespace Application.Features.Carts.Commands.AddItemToCart
                 };
 
                 cart.CartDetails.Add(cartDetail);
-
                 await _cartDetailWriteRepository.AddAsync(cartDetail);
             }
             else
             {
                 cartDetail.Quantity += request.Quantity;
+
+                if (cartDetail.Quantity > product.Stock)
+                {
+                    throw new InvalidOperationException("Insufficient stock available for the updated quantity.");
+                }
+
                 cartDetail.Subtotal = cartDetail.Quantity * cartDetail.PricePerUnit;
                 await _cartDetailWriteRepository.UpdateAsync(cartDetail);
             }
