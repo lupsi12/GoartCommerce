@@ -4,8 +4,10 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Application.Feature.Carts.Commands.CreateCart;
-using Application.Feature.Carts.Commands.UpdateCart;
 using Application.Features.Carts.Queries.GetCartDetails;
+using Application.Features.Carts.Queries.ValidateCartItems;
+using Application.Feature.Carts.Queries.ValidateCartItems;
+using Application.Feature.Carts.Commands.UpdateCart;
 
 namespace WebAPI.Controllers
 {
@@ -19,8 +21,9 @@ namespace WebAPI.Controllers
         {
             _mediator = mediator;
         }
+
         [HttpGet("{userId}/details")]
-        public async Task<IActionResult> GetCartDetails(int userId)
+        public async Task<IActionResult> GetCartDetails(int userId=1)
         {
             var query = new GetCartDetailsQueryRequest { UserId = userId };
             var result = await _mediator.Send(query);
@@ -30,6 +33,7 @@ namespace WebAPI.Controllers
             }
             return Ok(result);
         }
+
         [HttpPost("create")]
         public async Task<IActionResult> CreateCart([FromBody] CreateCartCommandRequest request)
         {
@@ -61,6 +65,14 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest("Failed to update cart.");
+        }
+
+        [HttpGet("{cartId}/validate")]
+        public async Task<IActionResult> ValidateCartItems(int cartId=1)
+        {
+            var query = new ValidateCartItemsQuery(cartId);
+            var result = await _mediator.Send(query);
+            return Ok(result); 
         }
     }
 }
