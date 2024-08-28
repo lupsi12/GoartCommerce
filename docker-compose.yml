@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  authservice:
+    build:
+      context: ./Services
+      dockerfile: AuthService/Dockerfile
+    ports:
+      - "5216:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${authdb_connectionstring}
+    env_file:
+      - .env
+    volumes:
+      - ./Services/dataprotection-keys:/root/.aspnet/DataProtection-Keys
+
+  cartservice:
+    build:
+      context: ./Services
+      dockerfile: CartService/Dockerfile
+    ports:
+      - "5259:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${cartdb_connectionstring}
+    env_file:
+      - .env
+    volumes:
+      - ./Services/dataprotection-keys:/root/.aspnet/DataProtection-Keys
+
+  productservice:
+    build:
+      context: ./Services
+      dockerfile: ProductService/Dockerfile
+    ports:
+      - "5233:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${productdb_connectionstring}
+    env_file:
+      - .env
+    volumes:
+      - ./Services/dataprotection-keys:/root/.aspnet/DataProtection-Keys
+
+  apigateway:
+    build:
+      context: ./
+      dockerfile: ApiGateway/ApiGateway/Dockerfile
+    ports:
+      - "5200:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - authservice
+      - cartservice
+      - productservice

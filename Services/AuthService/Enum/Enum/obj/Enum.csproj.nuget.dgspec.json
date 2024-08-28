@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {}
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {
+    "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj",
+        "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj",
-        "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/obj/",
+        "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj",
+        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

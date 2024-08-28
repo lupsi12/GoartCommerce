@@ -1800,38 +1800,41 @@
     ]
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "C:\\Users\\KC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
+      "projectUniqueName": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Application/Application/obj/",
+      "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Application\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Domain/Domain/Domain.csproj"
+            "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Domain\\Domain\\Domain.csproj"
             },
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Enum/Enum/Enum.csproj"
+            "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj": {
+              "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\AuthService\\Enum\\Enum\\Enum.csproj"
             },
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj"
+            "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+              "projectPath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
             }
           }
         }
@@ -1892,7 +1895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
