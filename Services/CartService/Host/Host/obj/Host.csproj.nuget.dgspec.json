@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {}
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
+              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
+                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
               }
             }
           }
@@ -39,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,37 +79,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj"
+              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
+                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj"
               }
             }
           }
@@ -126,11 +115,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -164,40 +148,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
         "projectName": "Host",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj"
+              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
+                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj"
               },
-              "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
+              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
+                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
               }
             }
           }
@@ -206,11 +187,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -251,29 +227,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj": {
+    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
+        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\Core\\obj\\",
+        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+        "packagesPath": "/Users/user/.nuget/packages/",
+        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/user/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -286,11 +259,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -321,6 +289,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -342,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

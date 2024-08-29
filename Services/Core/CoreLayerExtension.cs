@@ -13,6 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Core.MongoRepositories;
 
 namespace Core
 {
@@ -35,6 +36,8 @@ namespace Core
             //   app.UseMiddleware<ExceptionHandlingMiddleware>();
             services.AddTransient(typeof(IReadRepository<>), typeof(ReadRepository<>));
             services.AddTransient(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+            services.AddTransient(typeof(IMongoReadRepository<>), typeof(MongoReadRepository<>));
+            services.AddTransient(typeof(IMongoWriteRepository<>), typeof(MongoWriteRepository<>));
 
 
         }
