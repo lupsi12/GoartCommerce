@@ -18,6 +18,7 @@ namespace Domain.Configurations
 
             builder.Property(c => c.TotalPrice)
                 .HasColumnType("decimal(18,2)")
+                .HasDefaultValue(0)
                 .IsRequired(); 
 
             builder.HasMany(c => c.CartDetails)

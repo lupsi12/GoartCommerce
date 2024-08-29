@@ -9,7 +9,8 @@ namespace Domain.Entities
         public int UserId { get; set; } 
         public int CartId { get; set; }
         public OrderStatus Status { get; set; } 
-
+        //total price
+        public decimal TotalPrice { get; set; }
     }
 
     public enum OrderStatus
