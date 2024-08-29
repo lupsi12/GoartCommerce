@@ -1,5 +1,6 @@
 ﻿using Application.Feature.Products.Commands.CreateProduct;
 using Application.Feature.Products.Commands.DeleteProduct;
+using Application.Feature.Products.Commands.ReduceProductStock;
 using Application.Feature.Products.Commands.UpdateProduct;
 using Application.Feature.Products.Queries.GetAllProducts;
 using Application.Feature.Products.Queries.GetProductById;
@@ -61,6 +62,19 @@ namespace WebAPI.Controllers
             }
             return NotFound();
         }
+        [HttpPut("{id}/reduce-stock")]
+        public async Task<IActionResult> ReduceProductStock(int id, [FromBody] int quantityToReduce)
+        {
+            var command = new ReduceProductStockCommandRequest
+            {
+                ProductId = id,
+                QuantityToReduce = quantityToReduce
+            };
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+
 
     }
 }

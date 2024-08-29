@@ -22,7 +22,8 @@ namespace Application.Feature.Carts.Commands.CreateCart
             {
                 UserId = request.UserId,
                 Status = CartStatus.Active,
-                CreatedDate = DateTime.UtcNow
+                CreatedDate = DateTime.UtcNow,
+                TotalPrice = 0
             };
 
             await _cartWriteRepository.AddAsync(cart);

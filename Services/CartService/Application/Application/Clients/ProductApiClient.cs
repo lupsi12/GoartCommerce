@@ -21,6 +21,7 @@ public class ProductApiClient
     public async Task<ProductDto> GetProductByIdAsync(int productId)
     {
         var response = await _httpClient.GetAsync($"http://localhost:5233/api/products/{productId}");
+
         if (response.IsSuccessStatusCode)
         {
             var content = await response.Content.ReadAsStringAsync();
