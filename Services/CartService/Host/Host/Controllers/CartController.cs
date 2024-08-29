@@ -8,6 +8,8 @@ using Application.Features.Carts.Queries.GetCartDetails;
 using Application.Features.Carts.Queries.ValidateCartItems;
 using Application.Feature.Carts.Queries.ValidateCartItems;
 using Application.Feature.Carts.Commands.UpdateCart;
+using Application.Feature.Carts.Queries.GetAllCarts;
+using Domain.Entities;
 
 namespace WebAPI.Controllers
 {
@@ -73,6 +75,14 @@ namespace WebAPI.Controllers
             var query = new ValidateCartItemsQuery(cartId);
             var result = await _mediator.Send(query);
             return Ok(result); 
+        }
+
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllCarts([FromQuery] int? userId = null, [FromQuery] CartStatus? status = null)
+        {
+            var query = new GetAllCartsQueryRequest { UserId = userId, Status = status };
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
     }
 }

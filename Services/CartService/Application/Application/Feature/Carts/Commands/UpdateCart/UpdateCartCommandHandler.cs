@@ -2,6 +2,7 @@
 using Core.Repositories;
 using Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -29,7 +30,9 @@ namespace Application.Features.Carts.Commands.UpdateCart
 
         public async Task<UpdateCartCommandResponse> Handle(UpdateCartCommandRequest request, CancellationToken cancellationToken)
         {
-            var cart = await _cartReadRepository.GetAsync(c => c.Id == request.CartId && c.UserId == request.UserId);
+            var cart = await _cartReadRepository
+                .GetAsync(c => c.Id == request.CartId && c.UserId == request.UserId,
+                          include: c => c.Include(cart => cart.CartDetails));
 
             if (cart == null)
             {
@@ -42,40 +45,45 @@ namespace Application.Features.Carts.Commands.UpdateCart
             {
                 var cartDetail = cart.CartDetails.FirstOrDefault(cd => cd.ProductId == item.ProductId);
 
+                var product = await _productApiClient.GetProductByIdAsync(item.ProductId);
+                if (product == null)
+                {
+                    throw new InvalidOperationException("Product not found.");
+                }
+
                 if (cartDetail == null)
                 {
-                    var product = await _productApiClient.GetProductByIdAsync(item.ProductId);
-                    if (product == null)
-                    {
-                        throw new InvalidOperationException("Product not found.");
-                    }
-
                     cartDetail = new CartDetail
                     {
                         CartId = cart.Id,
                         ProductId = item.ProductId,
                         Quantity = item.Quantity,
-                        PricePerUnit = product.Price
+                        PricePerUnit = product.Price,
+                        Subtotal = item.Quantity * product.Price
                     };
+                    cart.CartDetails.Add(cartDetail);
                     await _cartDetailWriteRepository.AddAsync(cartDetail);
                 }
                 else
                 {
                     cartDetail.Quantity = item.Quantity;
 
-                    if (item.Quantity == 0)
+                    if (cartDetail.Quantity == 0)
                     {
                         await _cartDetailWriteRepository.HardDeleteAsync(cartDetail);
+                        cart.CartDetails.Remove(cartDetail); 
                     }
                     else
                     {
+                        cartDetail.Subtotal = cartDetail.Quantity * cartDetail.PricePerUnit;
                         await _cartDetailWriteRepository.UpdateAsync(cartDetail);
                     }
                 }
             }
 
+            cart.TotalPrice = cart.CartDetails.Sum(cd => cd.Subtotal);
+            await _cartWriteRepository.UpdateAsync(cart);
             await _cartDetailWriteRepository.SaveAsync();
-            await _cartWriteRepository.SaveAsync();
 
             return new UpdateCartCommandResponse
             {

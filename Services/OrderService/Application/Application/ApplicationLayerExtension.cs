@@ -1,4 +1,5 @@
-﻿using Core.CQRS.Behaviors;
+﻿using Application.Clients;
+using Core.CQRS.Behaviors;
 using Core.Repositories;
 using FluentValidation;
 using MediatR;
@@ -23,7 +24,17 @@ namespace Application
 
             ValidatorOptions.Global.LanguageManager.Culture = new CultureInfo("tr");
 
+            //cart api client
+            services.AddHttpClient<CartApiClient>(client =>
+            {
+                client.BaseAddress = new Uri(configuration["CartService:BaseUrl"]);
+            });
 
+            //product api client
+            services.AddHttpClient<ProductApiClient>(client =>
+            {
+                client.BaseAddress = new Uri(configuration["ProductService:BaseUrl"]);
+            });
         }
     }
 }

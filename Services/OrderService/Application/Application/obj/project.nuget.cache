@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "2Bd0/uI5WYE=",
-  "success": false,
+  "dgSpecHash": "EurXLdSX0FU=",
+  "success": true,
   "projectFilePath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\OrderService\\Application\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KC\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
@@ -68,15 +68,5 @@
     "C:\\Users\\KC\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\KC\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Application -> Application.",
-      "libraryId": "Application",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

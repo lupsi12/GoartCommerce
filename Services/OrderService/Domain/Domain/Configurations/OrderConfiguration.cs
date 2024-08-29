@@ -18,7 +18,13 @@ namespace Domain.Configurations
 
             builder.Property(o => o.Status)
                 .IsRequired()
-                .HasConversion<string>(); 
+                .HasConversion<string>();
+
+            builder.Property(o => o.TotalPrice)
+                .HasColumnType("decimal(18,2)")
+                .HasDefaultValue(0)
+                .IsRequired();
+
 
             builder.ToTable("Orders");
         }
