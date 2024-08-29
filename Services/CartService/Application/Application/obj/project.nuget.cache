@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9cXUgTSLqpw=",
+  "dgSpecHash": "lanZIKSWUn8=",
   "success": true,
-  "projectFilePath": "c:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KC\\.nuget\\packages\\accelergreat\\3.0.0\\accelergreat.3.0.0.nupkg.sha512",
     "C:\\Users\\KC\\.nuget\\packages\\accelergreat.entityframework\\3.0.0\\accelergreat.entityframework.3.0.0.nupkg.sha512",
