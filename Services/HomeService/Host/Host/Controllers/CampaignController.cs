@@ -1,5 +1,6 @@
 
-using Application.Feature.Users.Commands.CreateUser;
+using Application.Feature.Campaigns.Command.CreateCampaign;
+
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
