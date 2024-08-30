@@ -69,3 +69,4 @@ services:
       - authservice
       - cartservice
       - productservice
+      - homeservice
