@@ -1,13 +1,12 @@
-﻿
-using Domain.Entities;
+﻿using Domain.Entities;
 using MediatR;
 using System;
 using Application.Feature.Rules;
-using Application.Feature.Users.Commands.CreateUser;
 using Core.MongoRepositories;
+using MongoDB.Bson;
 
 
-namespace Application.Feature.Users.Command.CreateCampaign
+namespace Application.Feature.Campaigns.Command.CreateCampaign
 {
     public class CreateCampaignCommandHandler : IRequestHandler<CreateCampaignCommandRequest, CreateCampaignResponse>
     {
@@ -28,6 +27,7 @@ namespace Application.Feature.Users.Command.CreateCampaign
         {
             Campaign campaign = new Campaign()
             {
+                Id = request.MongoId,
                 Name = request.Name,
                 Description = request.Description,
                 CreatedDate = DateTime.UtcNow,
@@ -38,7 +38,7 @@ namespace Application.Feature.Users.Command.CreateCampaign
 
             return new CreateCampaignResponse()
             {
-                CampaignId = campaign.Id,
+                Id = campaign.Id,
                 Name = campaign.Name,
                 Description = campaign.Description,
                 //CreatedDate = campaign.CreatedDate

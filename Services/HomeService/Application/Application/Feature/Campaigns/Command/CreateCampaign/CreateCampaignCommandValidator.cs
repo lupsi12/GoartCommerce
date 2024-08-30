@@ -1,7 +1,6 @@
-﻿using Application.Feature.Users.Commands.CreateUser;
-using FluentValidation;
+﻿using FluentValidation;
 
-namespace Application.Feature.Users.Commands.CreatUser
+namespace Application.Feature.Campaigns.Command.CreateCampaign
 {
     public class CreateCampaignCommandValidator : AbstractValidator<CreateCampaignCommandRequest>
     {
