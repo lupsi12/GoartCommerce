@@ -1,6 +1,7 @@
 ﻿using Application.Features.Carts.Rules;
 using Core.CQRS.Behaviors;
 using FluentValidation;
+using MassTransit;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,6 +30,17 @@ namespace Application
             {
                 client.BaseAddress = new Uri(configuration["ProductService:BaseUrl"]);
             });
+
+
+            services.AddMassTransit(x =>
+            {
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host("rabbitmq://localhost"); 
+                });
+            });
+
+            services.AddMassTransitHostedService();
         }
     }
 }

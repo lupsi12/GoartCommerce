@@ -1,5 +1,7 @@
-﻿using Core.Repositories;
+﻿using Application.MassTransit.GetProductById;
+using Core.Repositories;
 using Domain.Entities;
+using MassTransit;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
@@ -14,22 +16,33 @@ namespace Application.Features.Carts.Commands.AddItemToCart
         private readonly IWriteRepository<Cart> _cartWriteRepository;
         private readonly IWriteRepository<CartDetail> _cartDetailWriteRepository;
         private readonly ProductApiClient _productApiClient;
+        private readonly IRequestClient<GetProductByIdRequest> _productClient;
+
 
         public AddItemToCartCommandHandler(
             IReadRepository<Cart> cartReadRepository,
             IWriteRepository<Cart> cartWriteRepository,
             IWriteRepository<CartDetail> cartDetailWriteRepository,
-            ProductApiClient productApiClient)
+            ProductApiClient productApiClient,
+               IRequestClient<GetProductByIdRequest> productClient)
         {
             _cartReadRepository = cartReadRepository;
             _cartWriteRepository = cartWriteRepository;
             _cartDetailWriteRepository = cartDetailWriteRepository;
             _productApiClient = productApiClient;
+            _productClient = productClient;
         }
 
         public async Task<AddItemToCartCommandResponse> Handle(AddItemToCartCommandRequest request, CancellationToken cancellationToken)
         {
-            var product = await _productApiClient.GetProductByIdAsync(request.ProductId);
+            //http call
+            //var product = await _productApiClient.GetProductByIdAsync(request.ProductId);
+            //mass transit
+            var response = await _productClient.GetResponse<GetProductByIdResponse>(new GetProductByIdRequest { ProductId = request.ProductId });
+            var product = response.Message;
+
+
+
             if (product == null)
             {
                 throw new InvalidOperationException("Product not found.");
