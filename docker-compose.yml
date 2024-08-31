@@ -43,6 +43,20 @@ services:
     volumes:
       - ./Services/dataprotection-keys:/root/.aspnet/DataProtection-Keys
 
+  homeservice:
+    build:
+      context: ./Services
+      dockerfile: HomeService/Dockerfile
+    ports:
+      - "5181:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=${homedb_connectionstring}
+    env_file:
+      - .env
+    volumes:
+      - ./Services/dataprotection-keys:/root/.aspnet/DataProtection-Keys
+
   apigateway:
     build:
       context: ./
@@ -55,3 +69,4 @@ services:
       - authservice
       - cartservice
       - productservice
+      - homeservice
