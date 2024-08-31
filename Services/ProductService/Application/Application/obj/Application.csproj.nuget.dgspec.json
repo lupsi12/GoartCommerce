@@ -141,6 +141,14 @@
               "target": "Package",
               "version": "[11.9.2, )"
             },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"

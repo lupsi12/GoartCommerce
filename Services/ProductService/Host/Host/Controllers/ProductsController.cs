@@ -4,9 +4,12 @@ using Application.Feature.Products.Commands.ReduceProductStock;
 using Application.Feature.Products.Commands.UpdateProduct;
 using Application.Feature.Products.Queries.GetAllProducts;
 using Application.Feature.Products.Queries.GetProductById;
+using Application.MassTransit.GetProductById;
+using MassTransit;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+
 namespace WebAPI.Controllers
 {
     [ApiController]
@@ -14,10 +17,12 @@ namespace WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IRequestClient<GetProductByIdRequest> _client;
 
-        public ProductsController(IMediator mediator)
+        public ProductsController(IMediator mediator, IRequestClient<GetProductByIdRequest> client)
         {
             _mediator = mediator;
+            _client = client;
         }
 
         [HttpPost]
@@ -33,6 +38,7 @@ namespace WebAPI.Controllers
             var result = await _mediator.Send(request);
             return Ok(result);
         }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
@@ -44,6 +50,7 @@ namespace WebAPI.Controllers
             }
             return NotFound();
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAllProducts([FromQuery] GetAllProductsQueryRequest request)
         {
@@ -62,6 +69,7 @@ namespace WebAPI.Controllers
             }
             return NotFound();
         }
+
         [HttpPut("{id}/reduce-stock")]
         public async Task<IActionResult> ReduceProductStock(int id, [FromBody] int quantityToReduce)
         {
@@ -74,6 +82,19 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
+        [HttpGet("masstransit/client/{id}")]
+        public async Task<IActionResult> GetProductByIdViaMassTransitClient(int id)
+        {
+            var request = new GetProductByIdRequest { ProductId = id };
+            var response = await _client.GetResponse<Application.MassTransit.GetProductById.GetProductByIdResponse>(request);
+
+            if (response.Message == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(response.Message);
+        }
 
 
     }
