@@ -1,9 +1,14 @@
 
 using Application.Feature.Campaigns.Command.CreateCampaign;
-
+using Application.Feature.Campaigns.Command.DeleteCampaign;
+using Application.Feature.campaigns.Command.UpdateCampaign;
+using Application.Feature.Campaigns.Queries.GetAllCampaigns;
+using Application.Feature.Campaigns.Queries.GetCampaignById;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+
 namespace WebAPI.Controllers
 {
     [ApiController]
@@ -19,6 +24,41 @@ namespace WebAPI.Controllers
         
         [HttpPost]
         public async Task<IActionResult> CreateCampaign([FromBody] CreateCampaignCommandRequest request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+
+         [HttpGet]
+        public async Task<IActionResult> GetAllCampaigns([FromQuery] GetAllCampaignsQueryRequest request)
+        {
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCampaignById(string id)
+        {
+            var query = new GetCampaignByIdQueryRequest { CampaignId = id };
+            var result = await _mediator.Send(query);
+            if (result != null)
+            {
+                return Ok(result);
+            }
+            return NotFound();
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var command = new DeleteCampaignCommandRequest { CampaignId = id };
+            var result = await _mediator.Send(command);
+            if (result.IsDeleted)
+            {
+                return Ok(result);
+            }
+            return NotFound();
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateCampaign([FromBody] UpdateCampaignCommandRequest request)
         {
             var result = await _mediator.Send(request);
             return Ok(result);
