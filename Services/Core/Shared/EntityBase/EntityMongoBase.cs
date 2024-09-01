@@ -15,5 +15,6 @@ namespace Core.Shared.EntityBase
         public ObjectId Id { get; set; }
         public DateTime CreatedDate { get; set; } 
         public bool IsDeleted { get; set; } = false;
+        public DateTime UpdatedDate { get; set; } 
     }
 }
