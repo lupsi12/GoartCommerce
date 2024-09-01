@@ -1,13 +1,11 @@
 ﻿
-
-using Application.Feature.campaigns.Command.UpdateCampaign;
 using Core.MongoRepositories;
 using Core.Repositories;
 using Domain.Entities;
 using MediatR;
 using MongoDB.Driver;
 
-namespace Application.Feature.Campaigns.Command.UpdateCampaign
+namespace Application.Feature.Homes.Command.UpdateCampaign
 {
     public class UpdateCampaignCommandHandler : IRequestHandler<UpdateCampaignCommandRequest, UpdateCampaignResponse>
     {

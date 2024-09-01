@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj": {}
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj": {
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj",
+        "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj",
         "projectName": "Enum",
-        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj",
+        "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Enum/Enum/Enum.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Enum/Enum/obj/",
+        "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Enum/Enum/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"

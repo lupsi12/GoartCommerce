@@ -2131,11 +2131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/HomeService/Domain/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/HomeService/Domain/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/HomeService/Domain/Domain/Domain.csproj",
+      "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/HomeService/Domain/Domain/Domain.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/HomeService/Domain/Domain/obj/",
+      "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/HomeService/Domain/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -2150,8 +2150,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj"
+            "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj": {
+              "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj"
             }
           }
         }

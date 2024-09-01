@@ -533,11 +533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/ApiGateway/ApiGateway/ApiGateway.csproj",
+      "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/ApiGateway/ApiGateway/ApiGateway.csproj",
       "projectName": "ApiGateway",
-      "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/ApiGateway/ApiGateway/ApiGateway.csproj",
+      "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/ApiGateway/ApiGateway/ApiGateway.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/ApiGateway/ApiGateway/obj/",
+      "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/ApiGateway/ApiGateway/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4hnbwaDzyF+AcVL7N2AFuGv1wblfrqXR3t7yGy96bfcQdkAacMZwWxDE8qLqVKKsfWemxYEdQE3Zy663Jw+R/g==",
+  "dgSpecHash": "iCaoTHixqS+XyrQFoXOk6xkecQxjHCfO7MHufXX/Z9Kg+U32nIMlk49VUZvTEdWZLmJb87s1IpCmd/9NRcu/AA==",
   "success": true,
-  "projectFilePath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
+  "projectFilePath": "/Users/user/Desktop/yeni/GoartCommerce/Services/AuthService/Application/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/user/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

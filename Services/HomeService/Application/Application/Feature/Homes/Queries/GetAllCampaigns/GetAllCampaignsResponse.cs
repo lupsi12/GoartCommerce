@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using MongoDB.Bson;
 
-namespace Application.Feature.Campaigns.Queries.GetAllCampaigns
+namespace Application.Feature.Homes.Queries.GetAllCampaigns
 {
     public class GetAllCampaignsResponse
     {

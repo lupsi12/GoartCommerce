@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace Application.Feature.Campaigns.Queries.GetAllCampaigns
+namespace Application.Feature.Homes.Queries.GetAllCampaigns
 {
     public class GetAllCampaignsQueryRequest : IRequest<List<GetAllCampaignsResponse>>
     {

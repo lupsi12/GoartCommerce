@@ -1,9 +1,10 @@
 
-using Application.Feature.Campaigns.Command.CreateCampaign;
-using Application.Feature.Campaigns.Command.DeleteCampaign;
-using Application.Feature.campaigns.Command.UpdateCampaign;
-using Application.Feature.Campaigns.Queries.GetAllCampaigns;
-using Application.Feature.Campaigns.Queries.GetCampaignById;
+
+using Application.Feature.Homes.Command.CreateCampaign;
+using Application.Feature.Homes.Command.DeleteCampaign;
+using Application.Feature.Homes.Command.UpdateCampaign;
+using Application.Feature.Homes.Queries.GetAllCampaigns;
+using Application.Feature.Homes.Queries.GetCampaignById;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

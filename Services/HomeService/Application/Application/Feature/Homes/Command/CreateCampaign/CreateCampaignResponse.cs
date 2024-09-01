@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Application.Feature.Campaigns.Command.CreateCampaign
+namespace Application.Feature.Homes.Command.CreateCampaign
 {
     public class CreateCampaignResponse
     {

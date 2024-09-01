@@ -7099,11 +7099,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
+      "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
       "projectName": "Host",
-      "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
+      "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Host/Host/obj/",
+      "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -7118,11 +7118,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj"
+            "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
+              "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj"
             },
-            "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
-              "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
+            "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
+              "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
             }
           }
         }
