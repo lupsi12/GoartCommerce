@@ -1691,11 +1691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+      "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj",
       "projectName": "Core",
-      "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+      "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/obj/",
+      "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"

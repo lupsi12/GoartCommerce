@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Application.Feature.Campaigns.Command.CreateCampaign
+namespace Application.Feature.Homes.Command.CreateCampaign
 {
     public class CreateCampaignCommandValidator : AbstractValidator<CreateCampaignCommandRequest>
     {
@@ -8,11 +8,11 @@ namespace Application.Feature.Campaigns.Command.CreateCampaign
         {
             RuleFor(x => x.Name)
                 .NotEmpty()
-                .WithMessage("Title cannot be empty.");
+                .WithMessage("Name cannot be empty.");
 
             RuleFor(x => x.Description)
                 .NotEmpty()
-                .WithMessage("Email cannot be empty.");
+                .WithMessage("Description cannot be empty.");
 
         }
     }

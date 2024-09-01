@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Core.MongoRepositories;
 
-namespace Application.Feature.Campaigns.Queries.GetCampaignById
+namespace Application.Feature.Homes.Queries.GetCampaignById
 {
     public class GetCampaignByIdQueryHandler : IRequestHandler<GetCampaignByIdQueryRequest, GetCampaignByIdResponse>
     {

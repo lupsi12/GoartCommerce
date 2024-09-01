@@ -5,7 +5,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 
-namespace Application.Feature.Campaigns.Command.DeleteCampaign
+namespace Application.Feature.Homes.Command.DeleteCampaign
 {
     public class DeleteCampaignCommandHandler : IRequestHandler<DeleteCampaignCommandRequest, DeleteCampaignResponse>
     {

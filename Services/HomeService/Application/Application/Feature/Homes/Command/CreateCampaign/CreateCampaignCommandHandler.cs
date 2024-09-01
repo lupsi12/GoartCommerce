@@ -1,12 +1,12 @@
 ﻿using Domain.Entities;
 using MediatR;
 using System;
-using Application.Feature.Rules;
+using Application.Feature.Homes.Rules;
 using Core.MongoRepositories;
 using MongoDB.Bson;
 
 
-namespace Application.Feature.Campaigns.Command.CreateCampaign
+namespace Application.Feature.Homes.Command.CreateCampaign
 {
     public class CreateCampaignCommandHandler : IRequestHandler<CreateCampaignCommandRequest, CreateCampaignResponse>
     {

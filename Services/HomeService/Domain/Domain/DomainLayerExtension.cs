@@ -19,10 +19,16 @@ namespace Domain
             });
 
             // Diğer sınıflar için class map kayıtlarını burada yapabilirsiniz
-        
-    
+            
+            services.AddTransient<IMongoReadRepository<ViewedProduct>, MongoReadRepository<ViewedProduct>>();
+            services.AddTransient<IMongoWriteRepository<ViewedProduct>, MongoWriteRepository<ViewedProduct>>();
+
+            services.AddTransient<IMongoReadRepository<CampaignProduct>, MongoReadRepository<CampaignProduct>>();
+            services.AddTransient<IMongoWriteRepository<CampaignProduct>, MongoWriteRepository<CampaignProduct>>();
+            
             services.AddTransient<IMongoReadRepository<Campaign>, MongoReadRepository<Campaign>>();
             services.AddTransient<IMongoWriteRepository<Campaign>, MongoWriteRepository<Campaign>>();
+           
             services.AddScoped<IMongoDbContext, ApplicationDbContextAdapter>(); 
         }
     }

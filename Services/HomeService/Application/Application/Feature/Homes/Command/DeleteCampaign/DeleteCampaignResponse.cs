@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Feature.Campaigns.Command.DeleteCampaign
+namespace Application.Feature.Homes.Command.DeleteCampaign
 {
 
     public class DeleteCampaignResponse

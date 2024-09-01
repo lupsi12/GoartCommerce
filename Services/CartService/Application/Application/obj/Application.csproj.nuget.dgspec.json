@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {}
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
+        "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
+        "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Application/Application/obj/",
+        "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
-                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
+              "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
+                "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
+        "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/CartService/Domain/Domain/obj/",
+        "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
-                "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj"
+              "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj": {
+                "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj": {
+    "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+        "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/Core.csproj",
+        "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/Core.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/untitled folder/GoartCommerce/Services/Core/obj/",
+        "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"

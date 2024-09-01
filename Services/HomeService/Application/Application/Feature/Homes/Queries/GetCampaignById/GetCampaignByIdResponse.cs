@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MongoDB.Bson;
 
-namespace Application.Feature.Campaigns.Queries.GetCampaignById
+namespace Application.Feature.Homes.Queries.GetCampaignById
 {
     public class GetCampaignByIdResponse
     {

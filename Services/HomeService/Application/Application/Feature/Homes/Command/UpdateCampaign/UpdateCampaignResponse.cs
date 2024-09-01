@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Application.Feature.Campaigns.Command.UpdateCampaign
+namespace Application.Feature.Homes.Command.UpdateCampaign
 {
     public class UpdateCampaignResponse
     {

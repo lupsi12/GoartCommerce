@@ -1,9 +1,8 @@
 ﻿using MediatR;
 using System.Collections.Generic;
 using System.ComponentModel;
-using Application.Feature.Campaigns.Command.UpdateCampaign;
 
-namespace Application.Feature.campaigns.Command.UpdateCampaign
+namespace Application.Feature.Homes.Command.UpdateCampaign
 {
     public class UpdateCampaignCommandRequest : IRequest<UpdateCampaignResponse>
     {

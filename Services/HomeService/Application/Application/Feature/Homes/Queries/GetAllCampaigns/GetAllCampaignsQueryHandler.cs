@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Core.MongoRepositories;
 
-namespace Application.Feature.Campaigns.Queries.GetAllCampaigns
+namespace Application.Feature.Homes.Queries.GetAllCampaigns
 {
     public class GetAllCampaignsQueryHandler : IRequestHandler<GetAllCampaignsQueryRequest, List<GetAllCampaignsResponse>>
     {
