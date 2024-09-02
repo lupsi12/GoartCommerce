@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.MassTransit.GetActiveCartByUserId;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
@@ -132,13 +133,5 @@ namespace Application.Clients
         public decimal Subtotal { get; set; }
     }
 
-    public enum CartStatus
-    {
-        Active = 0,
-        Inactive = 1,
-        Ordered = 2,
-        Pending = 3,
-        Abandoned = 4,
-        Cancelled = 5
-    }
+  
 }

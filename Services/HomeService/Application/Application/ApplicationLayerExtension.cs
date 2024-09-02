@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 using System.Reflection;
-using Application.Feature.Homes.Rules;
+using Application.Feature.Rules;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Configuration;
@@ -17,8 +17,6 @@ namespace Application
             services.AddMediatR(assembly);
 
             services.AddTransient<CampaignRules>();
-            services.AddTransient<CampaignProductRules>();
-            services.AddTransient<ViewedProductRules>();
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(Core.CQRS.Behaviors.FluentValidationBehevior<,>));
 

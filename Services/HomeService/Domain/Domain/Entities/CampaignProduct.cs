@@ -4,10 +4,9 @@ using Core.Shared.EntityBase;
 
 namespace Domain.Entities
 {
-    public class CampaignProduct : EntityMongoBase
+    public class CampaignProduct : EntityBase
     {
-        public string CampaignId { get; set; }
+        public int CampaignId { get; set; }
         public Campaign Campaign { get; set; }
-        public int ProductId { get; set; }
     }
 }

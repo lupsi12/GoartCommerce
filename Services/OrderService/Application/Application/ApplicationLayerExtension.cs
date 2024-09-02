@@ -1,7 +1,9 @@
 ﻿using Application.Clients;
+using Application.MassTransit.GetActiveCartByUserId;
 using Core.CQRS.Behaviors;
 using Core.Repositories;
 using FluentValidation;
+using MassTransit;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,6 +37,18 @@ namespace Application
             {
                 client.BaseAddress = new Uri(configuration["ProductService:BaseUrl"]);
             });
+
+            services.AddMassTransit(x =>
+            {
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.Host("rabbitmq://localhost"); 
+                });
+
+                x.AddRequestClient<GetActiveCartByUserIdRequest>(new Uri("rabbitmq://localhost/get-active-cart-queue"));
+            });
+            services.AddMassTransitHostedService();
+
         }
     }
 }

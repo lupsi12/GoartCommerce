@@ -204,6 +204,42 @@
           }
         }
       },
+      "MassTransit.AspNetCore/7.3.1": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "7.3.1",
+          "MassTransit.Extensions.DependencyInjection": "7.3.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.18",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.18"
+        },
+        "compile": {
+          "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MassTransit.Extensions.DependencyInjection/7.3.1": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "7.3.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MassTransit.RabbitMQ/8.2.5": {
         "type": "package",
         "dependencies": {
@@ -2630,6 +2666,34 @@
         "lib/netstandard2.0/MassTransit.Abstractions.xml",
         "masstransit.abstractions.8.2.5.nupkg.sha512",
         "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.AspNetCore/7.3.1": {
+      "sha512": "l5zu6mHevPQGP1tfDg4My8dtqH4n2jL22+Y1+GnAs12liQy5gYLcJAwSmCKb1iusjjD9S1tgfdILVkAfShfN8w==",
+      "type": "package",
+      "path": "masstransit.aspnetcore/7.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll",
+        "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.xml",
+        "masstransit.aspnetcore.7.3.1.nupkg.sha512",
+        "masstransit.aspnetcore.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Extensions.DependencyInjection/7.3.1": {
+      "sha512": "s1gnkYUngHNP9m2+Jx1vuUAvoVm4KB3oVbtFJUlXNtBBzhRFq1N3Y0w5iiew60ZBLm0j0RQcSRbI0ahMOkL+og==",
+      "type": "package",
+      "path": "masstransit.extensions.dependencyinjection/7.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll",
+        "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.xml",
+        "masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512",
+        "masstransit.extensions.dependencyinjection.nuspec",
         "mt-logo-small.png"
       ]
     },
@@ -7089,40 +7153,46 @@
       "Accelergreat.EntityFramework.PostgreSql >= 3.0.0",
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
+      "MassTransit >= 8.2.5",
+      "MassTransit.AspNetCore >= 7.3.1",
+      "MassTransit.RabbitMQ >= 8.2.5",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Swashbuckle.AspNetCore >= 6.7.3"
     ]
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "C:\\Users\\KC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
+      "projectUniqueName": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
       "projectName": "Host",
-      "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/Host.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Host/Host/obj/",
+      "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\Host.csproj",
+      "packagesPath": "C:\\Users\\KC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Host\\Host\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\KC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj": {
-              "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Application/Application/Application.csproj"
+            "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Application\\Application\\Application.csproj"
             },
-            "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj": {
-              "projectPath": "/Users/user/Desktop/yeni/GoartCommerce/Services/CartService/Domain/Domain/Domain.csproj"
+            "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\KC\\source\\repos\\GoartCommerce\\Services\\CartService\\Domain\\Domain\\Domain.csproj"
             }
           }
         }
@@ -7131,6 +7201,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7140,6 +7215,18 @@
           "Accelergreat.EntityFramework.PostgreSql": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "MassTransit": {
+            "target": "Package",
+            "version": "[8.2.5, )"
+          },
+          "MassTransit.AspNetCore": {
+            "target": "Package",
+            "version": "[7.3.1, )"
+          },
+          "MassTransit.RabbitMQ": {
+            "target": "Package",
+            "version": "[8.2.5, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -7171,7 +7258,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

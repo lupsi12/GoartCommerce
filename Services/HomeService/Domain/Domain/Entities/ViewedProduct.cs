@@ -4,7 +4,7 @@ using Core.Shared.EntityBase;
 
 namespace Domain.Entities
 {
-    public class ViewedProduct : EntityMongoBase
+    public class ViewedProduct : EntityBase
     {
         public int UserId { get; set; }
         public int ProductId { get; set; }
